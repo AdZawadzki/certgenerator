@@ -7,7 +7,7 @@ plik start.sh skrypt pozwalający na wejscie
 
 majac pliki odpalamy komende:
 
-- docker run -it -p 80:80 -d --name cert cert  <<<ten ostatni cert do plik cert.Dockerfile
+" docker build -t cert -f cert.Dockerfile . " <<<ten ostatni cert do plik cert.Dockerfile
 
 #wchodzimy do kontenera
 
