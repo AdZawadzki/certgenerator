@@ -25,8 +25,11 @@ majac pliki odpalamy komende:
  - apt-get update
  - edytujemy plik /etc/apt/sources.list 
     dodajemy w tym pliku linike:
+    
       deb http://deb.debian.org/debian buster-backports main
-      
+    
+    Po zapisie dajemy: apt-get update i lecimy dalej
+    
   - po edycji pliku instalujemy certbota w ten sposob:
    
    apt-get install certbot -t buster-backports
